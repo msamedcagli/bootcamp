@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablolar</title>
+</head>
+
+<body>
+    <h2>Memleketler</h2>
+    <!-- border şimdilik kullandık normalde cssle yapılır -->
+    <table border="1">
+        <tr><!-- table row -->
+            <th rowspan="4">deneme</th>
+            <th><!-- table heading -->
+                Şehir
+            </th>
+            <th>
+                plaka
+            </th>
+            <th>
+                Bölge
+            </th>
+        </tr>
+        <tr>
+            <td>05</td>
+            <td>amasya</td>
+            <td>karadeniz</td>
+        </tr>
+        <tr>
+            <td>34</td>
+            <td>istanbul</td>
+            <td>marmara</td>
+        </tr>
+        <tr>
+            <td>35</td>
+            <td>izmir</td>
+            <td>ege</td>
+        </tr>
+    </table>
+
+    <h2>Filmler</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>
+                    Film Adı
+                </th>
+                <th>
+                    Yıl
+                </th>
+                <th>
+                    imdb puanı
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fight Club</td>
+                <td>1999</td>
+                <th>8.8</th>
+            </tr>
+            <tr>
+                <td>The Godfather</td>
+                <td>1972</td>
+                <th>9.2</th>
+            </tr>
+            <tr>
+                <td>Babam ve Oğlum</td>
+                <td>2005</td>
+                <th>8.2</th>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2">Ortalama</th>
+                <th>8,7</th>
+
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
